@@ -6,7 +6,7 @@
           width: 100%;
           height: 80px;
           background: #0d1117;
-          color: #58a6ff;
+          color: #F1C40F;
           display: flex;
           align-items: center;
           font-family: sans-serif;
@@ -14,18 +14,23 @@
           font-weight: bold;
           overflow: hidden;
           white-space: nowrap;
+          border-radius: 8px;
+          box-sizing: border-box;
+          border: 1px solid #F1C40F;
         }
         .scroll-text {
-          animation: marquee 10s linear infinite;
+          display: inline-block;
+          white-space: nowrap;
+          animation: marquee 12s linear infinite;
         }
         @keyframes marquee {
-          0% { transform: translateX(-50%); }
-          100% { transform: translateX(0%); }
+          0% { transform: translateX(0%); }
+          100% { transform: translateX(-50%); }
         }
       </style>
       <div class="container">
         <div class="scroll-text">
-          🚀 Welcome to my repository • ⭐ Star the repo • 🔥 Open Source • 🚀 Welcome to my repository • ⭐ Star the repo • 🔥 Open Source 
+          🚀 Welcome to my repository • ⭐ Star the repo • 🔥 Open Source &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 🚀 Welcome to my repository • ⭐ Star the repo • 🔥 Open Source &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
         </div>
       </div>
     </div>

